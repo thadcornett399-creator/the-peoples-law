@@ -1,23 +1,21 @@
-# 🏛️ The People's Law: Civics Operating System
+[README.md](https://github.com/user-attachments/files/26224757/README.md)
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-> "Justice should not be a privilege for those who can afford the complexity of the law."
+# Run and deploy your AI Studio app
 
-The People's Law is a **Civics Operating System** designed to empower every citizen with expert-level legal intelligence.
+This contains everything you need to run your app locally.
 
-## 🌟 Why This Matters
-The legal landscape is intentionally complex. The People's Law uses high-end AI grounding to break down:
-*   **The US Constitution:** Understand your fundamental rights.
-*   **US Statutes:** Navigate complex laws with real-world citations.
-*   **Case Law:** See how the courts have ruled on critical issues.
+View your app in AI Studio: https://ai.studio/apps/4f005d3b-49af-438e-8325-7f88c4b9a510
 
-## 🛠️ Features
-*   **AI Legal Tutor:** Learns with you, explaining legalese in plain English.
-*   **Grounded Citations:** All AI responses are cross-referenced with Google Search for accuracy.
-*   **Private & Secure:** Designed for individual research and education.
+## Run Locally
 
-## 🚀 Pitch to Investors
-This project is more than a chatbot—it is a **framework for civic accessibility**. It is ready to be scaled for educational institutions, non-profits, or as a standalone legal-tech platform.
+**Prerequisites:**  Node.js
 
----
-**Status**: Development Prototype | Ready for Alpha Deployment.  
-**Tech Stack**: React, Google Gemini 1.5 Pro, Tailwind CSS.
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
